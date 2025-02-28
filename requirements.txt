@@ -7,3 +7,6 @@ pypdf
 chromadb
 sentence_transformers
 kagglehub
+Django
+gunicorn
+
