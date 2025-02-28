@@ -1,4 +1,5 @@
 Flask==2.3.2
+langchain_huggingface
 langchain_groq
 langchain_core
 langchain_community
