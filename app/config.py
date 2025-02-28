@@ -2,7 +2,8 @@ import os
 
 class Config:
     SECRET_KEY = os.getenv("SECRET_KEY", "supersecretkey")  # Default fallback
-    DEBUG = True  # Set False in production
+    DEBUG = False  # Set False in production
+
     GROQ_API_KEY = os.getenv("GROQ_API_KEY")
 
     @staticmethod
